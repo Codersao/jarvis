@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video with Auto Type</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking to external CSS file -->
+</head>
+
+<body>
+
+    <section class="video-section">
+        <video id="myVideo" width="62%" height="48%" controls loop muted>
+            <source src="girl.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <div class="container">
+        <p id="text"></p> <!-- This will display the auto-typed text -->
+    </div>
+
+    <button id="playButton" style="display:none;">Click to Play Video</button> <!-- Fallback Play Button -->
+
+    <script src="script.js"></script> <!-- Linking to external JavaScript file -->
+
+</body>
+
+</html>

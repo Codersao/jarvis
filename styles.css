@@ -1,0 +1,41 @@
+body {
+    font-family: 'Norican', cursive;
+    background: red;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#text {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+}
+
+video {
+    width: 80%;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+#playButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+#playButton:hover {
+    background-color: red;
+    color: white;
+}
